@@ -19,7 +19,7 @@ public class Client {
 			s.connect(isa);
 			fin act3*/
 			System.out.println("je suis un client pas encore connecté");
-			Socket s = new Socket("localhost",1234);
+			Socket s = new Socket("192.168.56.1",1234);
 			System.out.println("je suis connecté au serveur");
 			/*activité 2*/
 			int nb;
